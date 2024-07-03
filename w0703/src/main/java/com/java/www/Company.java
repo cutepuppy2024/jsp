@@ -37,12 +37,12 @@ public class Company extends HttpServlet {
 		writer.println("<html>");
 		writer.println("<head><title>회원정보</title></head>");
 		writer.println("<body>");		
-		writer.println("<h2>[ 회원정보 ]</h3>");
+		writer.println("<h3>[ 회원정보 ]</h3>");
 		writer.println("<h3>아이디 : "+id+"</h3>");
 		writer.println("<h3>패스워드 : "+pw+"</h3>");
 		writer.println("<h3>이름 : "+name+"</h3>");
 		writer.println("<h3>성별 : "+gender+"</h3>");
-		writer.println("<h3>취미 : "+hobby+"</h3>");
+		writer.println("<h3>취미 : "+Arrays.toString(hobby)+"</h3>");
 		writer.println("</body>");
 		writer.println("</html>");
 		
